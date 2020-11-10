@@ -10,6 +10,15 @@
   <body>
 
     <div>
+      
+      <!-- ***
+           This is great so far. You've used inline style on this header. Consider moving
+           this into your CSS file. 
+
+           Also, avoid using the align attribute. Instead, use text-align in your CSS file. This keeps a better
+           separation of content and style.          
+           *** -->
+      
       <header style="background-color: #89A84C;">
         <h1 align="center" id="Seamus-O'Leary"> Seamus O'Leary </h1>
         <a href="index.html"> Homepage </a>
@@ -30,6 +39,10 @@
           <li style="font-size: 1.5em;"> Fitness </li>
         </ul>
 
+        <!-- ***
+             This looks like you actually wanted two paragraphs. This is fine,
+             just finish off one with a </p> and start the next.
+             *** -->
         <p align="left" > However most notably I have trained as a chef and
           worked in professional kitchens since 2013 - when I was 15 years old.
           I find food to be one of the greatest passions of mine, followed very
@@ -40,6 +53,10 @@
 
 
   <div>
+    <!-- ***
+         Tables used to be widely used for layout. However, this is not what they're for - they
+         should only be used to present a table of data.
+         *** -->
    <table align="left" >
     <tr>
       <td><img src="img/Duck.jpeg" alt='Duck Starter' style="width:200px;height:200px; max-width: 100%" </img></td>
